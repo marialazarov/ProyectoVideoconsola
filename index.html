@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet">
-    <script href="consola.js"></script>
+    <script src="consola.js"> </script>
     <title>Videoconsola</title>
 </head>
+
 <body>
 
 <div class="game-boy">
@@ -27,28 +28,28 @@
         
         
     <div class="botones">
-        <div id="botonA">
-            <button>SIGUIENTE</button>
+        <div>
+            <button id="botonA" onclick="cambiarImagen('siguiente')">SIGUIENTE</button>
         </div>
-         <div id="botonB">
-             <button>RESET</button>
+         <div> 
+             <button id="botonB" onclick="cambiarImagen('reset')">RESET</button>
          </div>
 
     </div>
 
 
     <div class="juego">
-        <img id="imgchange" src="css/img/pantallainicio.png" alt="imagen">
-    </div>
+        <img id="imgchange" src="css/img/videojuego1.avif" alt="imagen">
+     </div>
 
 
    
-    <script href="consola.js"></script>
+
 
     
 
 </div>
 
-    
+
 </body>
 </html>
