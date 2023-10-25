@@ -1,0 +1,25 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+.game-boy{
+    position: relative;
+    margin: 10%;
+    width: 30em;
+    height: 40em;
+    background-color: black;
+    border-radius: 25%;
+}
+
+.borde-pantalla{
+    position: absolute;
+    width: 25em;
+    height: 20em;
+    top:2em;
+    left:2.5em;
+    background-color: rgb(244, 249, 249);
+    border-radius: 20%;
+}
