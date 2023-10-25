@@ -2,7 +2,7 @@ body{
     background-color: blue;
     display: flex;
     justify-content: center;
-    margin: 10%;
+    margin:6%;
 }
 
 .game-boy{
@@ -59,3 +59,17 @@ body{
     transform: rotate(90deg);
     transform-origin: center;
 }
+
+.botones{
+    border-radius: 50%;
+    bottom: 24%;
+    right:20%;
+    position: absolute;
+    padding: 0.25em, 2em;
+}
+
+.botonA{
+    margin-bottom: 0.5em;
+ 
+}
+
