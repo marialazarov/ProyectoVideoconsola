@@ -38,6 +38,13 @@ body{
         }
             
         }
+        @media (max-width:310px){
+            .game-boy{
+                width: 16em;
+                height: 37em;
+            }
+                
+            }
 
 .borde-pantalla{
     position: absolute;
@@ -72,7 +79,14 @@ body{
             
         }
     
-
+        @media (max-width:310px){
+            .borde-pantalla{
+                width: 10em;
+                margin-left: -1.3em;
+            }
+                
+            }
+        
 
 .pantalla{
     background-color: rgb(209, 255, 194);
@@ -144,6 +158,14 @@ body{
         }
             
         }
+        @media (max-width:310px){
+            .botones{
+                
+                margin: -3em;
+                margin-bottom: 0.8em;
+            }
+                
+            }
 
 
 #botonA{
@@ -164,8 +186,14 @@ body{
         }
             
         }
-       
-
+        @media (max-width:310px){
+            #botonA{
+            margin: 0em;
+            margin-right: 1.2em;
+            }
+                
+            }
+           
 .juego{
     position: absolute;
     width: 22em;
@@ -200,7 +228,14 @@ body{
                 
             }
         
-
+            @media (max-width:310px){
+                .juego{
+                    width: 8.5em;
+                    margin-left:0em;
+                }
+                    
+                }
+            
 
 #imgchange{
     width: 100%;
