@@ -30,7 +30,12 @@ body{
 }
 @media (max-width:500px){
     .game-boy{
-        width:19em;
+        width:17em;
+    }
+}
+@media (max-width:415px){
+    .game-boy{
+        width:16em;
     }
 }
 @media (max-width:400px){
@@ -56,37 +61,44 @@ body{
     width: 17em;
     }
 }
-@media (max-width:500px){
-    .borde-pantalla{
-        width:14em;
-    }
-}
-@media (max-width:400px){
-    .borde-pantalla{
-        width: 11em;
-        height: 14em;
-    }
-        
-    }
-    @media (max-width:300px){
-        .borde-pantalla{
-            width: 10em;
-            margin-left: -1.3em;
-        }
-            
-        }
+       
+    
+   
     
         @media (max-width:360px){
             .borde-pantalla{
-                width:13.2em;
+                width:4em;
                 margin-left: -1.3em;
             }
                 
             }
-        
+            @media (max-width:415px){
+                .borde-pantalla{
+                    width:15em;
+                    height: 12em;
+                    margin-left: -1em;
+                }
+                    
+                }
+                @media (max-width:500px){
+                    .borde-pantalla{
+                        width:13em;
+                        height: 15em;
+                        margin-left: -1.3em;
+                    }
+                        
+                    }
+                    @media (max-width:300px){
+                        .borde-pantalla{
+                            width:9em;
+                            height: 14em;
+                            margin-left: -1em;
+                        }}
+                            
+                
 
 .pantalla{
-    background-color: rgb(209, 255, 194);
+    background-color: rgb(255, 222, 222);
     position: absolute;
     width: 25m;
     height: 16em;
@@ -96,14 +108,13 @@ body{
 
 @media (max-width:400px){
     .pantalla{
-        width: 9em;
+        width: 7em;
     height: 10em;
        
     }
         
     }
-
-
+ 
 .controles{
     width: 5.5em;
     height: 3.75em;
@@ -223,7 +234,7 @@ body{
             }
            
 .juego{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     position: absolute;
     width: 22em;
     height: 16em;
@@ -237,7 +248,10 @@ body{
 }
 @media (max-width:500px){
     .juego{
-        width: 13.5em;
+        width:10em;
+        height: 10em;
+        margin-left:1em;
+        border-radius: 20%;
     }
         
     }
@@ -249,18 +263,12 @@ body{
         }
             
         }
+     
     
-        @media (max-width:300px){
-            .juego{
-                width: 8.5em;
-                margin-left:0em;
-            }
-                
-            }
         
             @media (max-width:310px){
                 .juego{
-                    width: 8.5em;
+                    width: 8em;
                     margin-left:0em;
                 }
                     
@@ -268,9 +276,9 @@ body{
             
 
 #imgchange{
+    
     width: 100%;
     height: 100%;
     border-radius:3%;
     margin-left: 0.3em;
 }
-
